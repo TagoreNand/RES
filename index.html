@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final web css part 2.css">
+    <title>Login and Registration</title>
+</head>
+<body>
+    <div>
+        <h2>Login</h2>
+        <form action="your-login-processing-script.php" method="post">
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="login-username" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <hr>
+
+        <h2>Register</h2>
+        <form action="your-registration-processing-script.php" method="post">
+            <label for="register-username">Username:</label>
+            <input type="text" id="register-username" name="register-username" required>
+
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="register-password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

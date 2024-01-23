@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px 0px 20px 10px;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+}
+
+header {
+    background-color: #333;
+    color: #1a4ba0;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #39259553;
+}
+
+h2 {
+    color: #1a075f;
+}
+
+p {
+    color: #2d69cb;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education, .experience, .projects, .skills, .certificates, .extracurricular, .contact {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.certificates p {
+    margin-bottom: 10px;
+}
+
+.extracurricular p {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
